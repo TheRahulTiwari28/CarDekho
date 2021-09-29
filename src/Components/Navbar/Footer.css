@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --yellow:#1978a5;
+    --light-yellow: #1fbfb8;
+    --black: #031163;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --border:.1rem solid rgba(0,0,0,.1);
+}
+/* footer */
+.footer{
+    background: var(--light-yellow);
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 15px;
+}
+
+.footer .box-container .box h3{
+    font-size: 16px;
+    padding: 10px 0;
+    color:var(--black);
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 14px;
+    padding: 6px 0;
+    color:var(--light-color);
+}
+
+.footer .box-container .box a i{
+    padding-right: 5px;
+    color:var(--black);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 16px;
+}
+
+.footer .credit{
+    text-align: center;
+    padding-top: 10px;
+    border-top: var(--border);
+    font-size: 12px;
+    color:var(--black);
+}
