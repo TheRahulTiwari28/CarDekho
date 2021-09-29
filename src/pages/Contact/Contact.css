@@ -16,7 +16,7 @@
 
 .contact .row form{
     padding: 16px;
-    flex:1 1 42rem;
+    flex:1 1 22rem;
     box-shadow: var(--box-shadow);
     border:var(--border);
     text-align: center;
