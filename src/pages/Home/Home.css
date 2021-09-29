@@ -156,16 +156,18 @@ section{
     text-transform: none;
 }
 
-.newsletter form input[type="submit"]{
+.newsletter form a{
     height: 100%;
     width: 150px;
     font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
     color:var(--black);
     background: var(--light-yellow);
     cursor: pointer;
 }
 
-.newsletter form input[type="submit"]:hover{
+.newsletter form a:hover{
     background: var(--yellow);
 }   
 

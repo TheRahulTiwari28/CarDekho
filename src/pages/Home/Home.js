@@ -149,7 +149,8 @@ const Home = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, suscipit.</p>
         <form action="">
           <input type="email" placeholder="enter your email" />
-          <input type="submit" value="subscribe" />
+          {/* <input type="submit" value="subscribe" /> */}
+          <a href="mailto: tiwarirahul28042002@gmail.com" >Subscribe</a>
         </form>
       </section>
 
